@@ -9,7 +9,7 @@
     pointer-events: none;
     grid-area: logo;
     transform: translateY(25px);
-    border-radius: 20px;
+    border-radius: 50%;
   }
   
   .App-header {

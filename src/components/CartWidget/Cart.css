@@ -1,8 +1,14 @@
 .cart-container{
     width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.cartButton{
+    border-radius: 55%;
+    
 }
 .cartImg{
     width: 100%;
     border-radius: 50%;
-    border: solid 2px white;
+    
 }
