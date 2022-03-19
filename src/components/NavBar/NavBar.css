@@ -1,0 +1,54 @@
+.logo-container{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 180px;
+  }
+  .App-logo {
+    height: 100%;
+    pointer-events: none;
+    grid-area: logo;
+    transform: translateY(25px);
+    border-radius: 20px;
+  }
+  
+  .App-header {
+    background-color: #008b8b;
+    height: 250px;
+    display: grid;
+    grid-template-areas:
+    "logo tittle cart"
+    "logo nav nav"
+    ;
+    color: white;
+    box-shadow: 2px 10px 10px #0187875c;
+  
+  }
+  .headerTittle{
+    font-size: 4em;
+    text-align: center;
+    grid-area: tittle;
+    height: min-content;
+    transform: translateX(-100px);
+  }
+  .navbar{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    grid-area:nav;
+    transform: translateY(-50px);
+  }
+  .navbar li{
+    margin-right: 30px;
+  }
+  .buttonNav{
+    width: 150px;
+    height: 50px;
+    font-size:24px;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.496), inset -2px -2px 5px #008b8b;
+  }
+  .cart-container{
+      grid-area: cart;
+      transform: translateX(150px) translateY(50px);
+  }

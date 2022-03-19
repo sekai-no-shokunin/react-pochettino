@@ -1,0 +1,27 @@
+.cardContainer {
+    width: 250px;
+    height: 500px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: radial-gradient(#008b8b, white);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.308);
+  }
+  .cardImg{
+    width: 80%;
+   }
+  .cardImg__esp{
+    width: 90%;
+    border-radius: 25px;
+  }
+  .infoProduct{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .infoPrice:before {
+    content: "$ ";
+  }
