@@ -19,7 +19,7 @@ const ItemCount = ({stock,initial}) => {
     
     return(
         <div className="SelectAmount">
-                    <button onClick={onLess}>aa</button>
+                    <button onClick={onLess}>-</button>
                     <p>{count}</p>
                     <button onClick={onAdd}>+</button>
                 </div>
