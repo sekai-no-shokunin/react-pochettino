@@ -10,6 +10,7 @@
     grid-area: logo;
     transform: translateY(25px);
     border-radius: 50%;
+    box-shadow:  3px 5 px 5px  #9de9e95c;;
   }
   
   .App-header {
@@ -17,8 +18,8 @@
     height: 250px;
     display: grid;
     grid-template-areas:
-    "logo tittle cart"
-    "logo nav nav"
+    "logo title title"
+    "logo nav cart"
     ;
     color: white;
     box-shadow: 2px 10px 10px #0187875c;
@@ -27,28 +28,9 @@
   .headerTittle{
     font-size: 4em;
     text-align: center;
-    grid-area: tittle;
+    grid-area: title;
     height: min-content;
     transform: translateX(-100px);
   }
-  .navbar{
-    display: flex;
-    list-style: none;
-    margin-top: 15px;
-    grid-area:nav;
-    transform: translateY(-50px);
-  }
-  .navbar li{
-    margin-right: 30px;
-  }
-  .buttonNav{
-    width: 150px;
-    height: 50px;
-    font-size:24px;
-    border-radius: 25px;
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.496), inset -2px -2px 5px #008b8b;
-  }
-  .cart-container{
-      grid-area: cart;
-      transform: translateX(150px) translateY(50px);
-  }
+  
+  

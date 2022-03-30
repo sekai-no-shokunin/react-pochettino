@@ -1,11 +1,11 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ListProduct from './components/ListProduct/ListProduct';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <ListProduct title = "Productos de la semana"/>
+      <ItemListContainer title = "Productos de la semana"/>
     </div>
   );
 }

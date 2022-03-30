@@ -1,7 +1,10 @@
+import React,{useState} from "react"
 
 import "./Cards.css"
-
-const Card = ({image, title , alert, size , price , stock})=>{
+import "../ItemCount/ItemCount.css"
+import ItemCount from "../ItemCount/ItemCount"
+const Card = ({image, title , alert, size , price , stock,initial})=>{
+    
     return(
         <div className="cardContainer">
             <div className="cardImg"><img className="cardImg__esp" src ={image}/></div>
@@ -10,9 +13,9 @@ const Card = ({image, title , alert, size , price , stock})=>{
                  <p>{alert}</p>
                 <h4 className="infoSize">{size}</h4>
                 <h4 className="infoPrice">{price}</h4>
-                <p> En stock: {stock}</p>
+               <ItemCount stock = {stock} initial = {initial}/>
             </div>
-            <button>Comprar</button>
+            <button className="PayBtn">Comprar</button>
         </div>
     )
 }

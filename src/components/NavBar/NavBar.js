@@ -1,5 +1,10 @@
-import Cart from "../CartWidget/Cart"
+import CartWidget from "../CartWidget/CartWidget"
+import Cart from "../CartWidget/CartWidget"
+import NavBtn from "../NavBtn/NavBtn"
 import "./NavBar.css"
+
+
+//import NavBtn from "../NavBtn/NavBtn"
 
 const NavBar = () => {
     return(
@@ -8,13 +13,8 @@ const NavBar = () => {
         <img src="./img/logo-vv.png" className="App-logo" alt="logo" />
         </div>
         <h1 className="headerTittle">Vamos Viendo</h1>
-        <ul className="navbar">
-            <li><button className="buttonNav">Menu</button></li>
-            <li><button className="buttonNav">Productos</button></li>
-            <li><button className="buttonNav">Nosotros</button></li>
-            <li><button className="buttonNav">Contacto</button></li>
-        </ul>
-        <Cart />
+        <NavBtn list={["Menu","Productos","Nosotros","Contacto"]} />
+        <CartWidget />
       </header>
     )
 }

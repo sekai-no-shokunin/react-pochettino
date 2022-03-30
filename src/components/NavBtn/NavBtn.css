@@ -1,0 +1,19 @@
+ .navbar{
+display: flex;
+list-style: none;
+margin-top: 15px;
+grid-area:nav;
+transform: translateY(-50px);
+}
+.navbar li{
+    margin-right: 30px;
+}
+ .buttonNav{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #008b8b;
+    font-size:24px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px  #eaeeee5c;
+  }

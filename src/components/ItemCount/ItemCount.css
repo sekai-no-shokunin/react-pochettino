@@ -1,0 +1,17 @@
+.SelectAmount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .SelectAmount p{
+    width: 50px;
+    background-color: #008b8b;
+    border: solid 1px black;
+  }
+  .SelectAmount button{
+    width: 25px;
+    height: 23px;
+    background-color: #008b8b;
+    
+  }
